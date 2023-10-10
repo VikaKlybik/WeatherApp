@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string-array name="menu_array">
+        <item>Home</item>
+        <item>Search</item>
+        <item>About us</item>
+    </string-array>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="more">More</string>
+    <string name="author_name">Victoria Klybik</string>
+    <string name="description">Our weather forecast and daily planner app allows you to save weather forecasts for your \'memories of the day.\' Keep a weather diary, track various weather metrics for each day, and plan activities based on favorable weather conditions.</string>
+    <string name="about_weatherapp">About WeatherApp</string>
+    <string name="version_name">Version 1.0</string>
+    <string name="edit">edit\n</string>
+    <string name="delete">delete</string>
+    <string name="submit">Submit</string>
+    <string name="added_success">Memorable day added successully!</string>
+    <string name="success_edit">Memorable day added successfully!</string>
+    <string name="raining">Raining</string>
+    <string name="humidity">Humidity</string>
+    <string-array name="titles_in_list">
+        <item>Author</item>
+        <item>How to contact me?</item>
+        <item>Explore, Plan, and Conquer with Weather Diary</item>
+        <item>Making Every Day a Good Day</item>
+        <item>Your Pocket Sunshine</item>
+        <item>Your Weather-Ready Sidekick</item>
+        <item>Your Weather Forecast Expert</item>
+    </string-array>
+    <string-array name="description_in_list">
+        <item>Victoria Klybik</item>
+        <item>+375 (33) 335–77–84</item>
+        <item>Weather Diary empowers you to explore new horizons, plan your day, and conquer any weather-related challenges</item>
+        <item>Weather Diary improves your daily experience</item>
+        <item>Get your daily dose of positivity with Weather Diary</item>
+        <item>Weather Diary, your ready-for-anything weather sidekick</item>
+        <item>Weather Diary is the expert you need for precise weather forecasts</item>
+    </string-array>
+</resources>
