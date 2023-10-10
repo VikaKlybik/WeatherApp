@@ -271,7 +271,7 @@ fun HomeScreenContent(
     onAdd: (MemorableDay, Int) -> Unit,
     snackbarHostState: SnackbarHostState
 ){
-    Box {
+    Box(modifier = Modifier.fillMaxSize()) {
         val sheetState = rememberModalBottomSheetState()
         var selectedMemorableDay by remember { mutableStateOf<MemorableDay?>(null) }
         var isEditing by remember { mutableStateOf(false) }
@@ -385,7 +385,7 @@ fun HomeScreenContent(
                 }
             },
             modifier = Modifier
-                .padding(16.dp)
+                .padding(25.dp)
                 .align(alignment = Alignment.BottomEnd))
         if(sheetState.isVisible) {
             if (isEditing) {
